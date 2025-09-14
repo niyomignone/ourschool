@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: black;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  position: relative;
+}
+
+.normal {
+  font-size: 3em;
+  color: #00ffcc;
+}
+
+.mirror {
+  font-size: 3em;
+  color: #00ffcc;
+  transform: scaleY(-1);
+  opacity: 0.4;
+  margin-top: -20px;
+}
+
+p {
+  color: #ccc;
+  font-size: 1.2em;
+  margin-top: 30px;
+}
+
+img {
+  margin-top: 20px;
+  width: 250px;
+  border-radius: 12px;
+}
